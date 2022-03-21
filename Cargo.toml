@@ -1,0 +1,17 @@
+[package]
+name = "flocking"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.6"
+# bevy_prototype_debug_lines = "0.6"
+rand = "0.8"
+
+[profile.release]
+# strip = true  # Automatically strip symbols from the binary.
+# lto = true
+# opt-level = "z"  # Optimize for size.
+# panic = "abort"
